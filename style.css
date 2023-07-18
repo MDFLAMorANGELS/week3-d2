@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,rgba(153, 153, 226, 0.678),rgba(129, 48, 184, 0.415));
+    cursor: no-drop;
+}
+form {
+    border: 8px inset rgba(17,117,75,0.38);
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.154);
+    padding: 2em;
+    border-radius: 10px;
+    width: 50vh;
+    margin-top: 50px;
+    text-shadow: 2px 1px 8px rgba(0,0,0,0.45);
+}
+.form-group {
+    padding: 10px;
+}
+
+input:focus:invalid {
+    box-shadow: 0 0 5px 1px rgba(255, 0, 0, 0.582);
+}
+  
+input:valid {
+    box-shadow: 0 0 5px 1px rgba(4, 255, 0, 0.566);
+}
+input:focus:valid {
+    box-shadow: 0 0 3px 1px rgba(4, 255, 0, 0.566);
+}
